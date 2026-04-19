@@ -1,6 +1,6 @@
 # YSU Campus Network Auto Login
 
-[English](./README.md) | [????](./README.zh-CN.md)
+[English](https://github.com/Summerandbreeze/Ysu_netlogin/blob/main/README.md) | [Chinese](https://github.com/Summerandbreeze/Ysu_netlogin/blob/main/README.zh-CN.md)
 
 Auto login script for Yanshan University campus network on Windows.
 
