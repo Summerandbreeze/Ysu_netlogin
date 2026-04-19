@@ -1,0 +1,7 @@
+{
+    "userId": "2024XXXXXXXX",
+    "password": "your_password_here",
+    "service": 3,
+    "check_interval": 300,
+    "log_file": "login.log"
+}

@@ -1,0 +1,31 @@
+# Secrets
+config.json
+.login_cookies.txt
+login.log
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Debug and reverse engineering artifacts
+_debug*.py
+_debug*_out.txt
+_debug*_output.txt
+_fix*.py
+*_dump.txt
+*_saved.js
+*.hdr
+*_ck.txt
+d*_cas*.html
+d*_main.js
+d*_login_page.html
+d*_response.html
+
+# Local backups
+*.bak
+*.bak_*
+
+*_cookies.txt
+*_hdr.txt
