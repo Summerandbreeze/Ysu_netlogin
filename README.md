@@ -1,5 +1,7 @@
 # YSU Campus Network Auto Login
 
+[English](./README.md) | [????](./README.zh-CN.md)
+
 Auto login script for Yanshan University campus network on Windows.
 
 This project is designed for one practical goal: when the campus network drops or requires authentication again, the script checks the network and logs in automatically, while trying to avoid conflicts with Clash Verge.
