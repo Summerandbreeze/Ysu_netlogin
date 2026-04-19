@@ -24,9 +24,9 @@ This project is designed for one practical goal: when the campus network drops o
 
 - `ysu_login.py`: main script
 - `config.example.json`: config template
-- `??????.bat`: start daemon mode in a normal window
-- `????-??.bat`: start daemon mode minimized
-- `??????.bat`: install Windows scheduled task
+- normal-start BAT file: starts daemon mode in a normal window
+- minimized-start BAT file: starts daemon mode minimized
+- scheduled-task BAT file: installs the Windows scheduled task
 
 ## Install
 
@@ -104,28 +104,24 @@ Run the script continuously and check every 300 seconds:
 python ysu_login.py daemon 300
 ```
 
-You can also double-click:
+You can also start daemon mode by double-clicking one of these files in the repository root:
 
-- `??????.bat`
-- `????-??.bat`
+- the BAT file for normal window startup
+- the BAT file for minimized startup at boot
 
-If you want it to start with Windows, put `????-??.bat` into your Startup folder.
+If you want it to start with Windows, put the minimized-start BAT file into your Startup folder.
 
 ### Option 2: Windows scheduled task
 
-If you do not want a long-running Python process, use the scheduled task script.
+If you do not want a long-running Python process, use the scheduled task BAT file in the repository root.
 
-Double-click:
-
-- `??????.bat`
-
-Useful commands:
+After installation, list all scheduled tasks and search for the task created by this project:
 
 ```powershell
-schtasks /query /tn "YSU_???????"
-schtasks /run /tn "YSU_???????"
-schtasks /delete /tn "YSU_???????" /f
+schtasks /query
 ```
+
+You can also open Task Scheduler and look for the task created by the install BAT file.
 
 ## Clash Verge Notes
 
